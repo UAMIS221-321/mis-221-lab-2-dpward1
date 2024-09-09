@@ -1,0 +1,16 @@
+Start
+Input("costOfSandwhich")=4.75
+Input("costOfTopping")=.55
+Prompt user for (numberOfSandwiches)
+Input("numberOfSandwiches")
+Prompt user for (numberOfToppings)
+Input("numberOfToppings")
+totalSandwichCost=(numberOfSandwiches)*(4.75)
+totalToppingCost=(numberOfToppings)*(.55)
+baseCost=(totalSandwichCost)+(totalToppingCost)
+Input("discountAmount")=.90
+Prompt user for (tipAmount)
+Input("tipAmount")
+orderCost=((baseCost)*(.90))+(tipAmount)
+Display (orderCost)
+Stop
